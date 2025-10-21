@@ -2,15 +2,16 @@ package variable;
 
 public class Var2 {
     public static void main(String[] args) {
-        int a;
-        a = 1;
+        int a = 100;
+        double b = 10.5;
+        boolean c = true;
+        char d = 'A';
+        String e = "Hello Java";
+
         System.out.println(a);
-
-        int b = 2;
         System.out.println(b);
-
-        int c = 3, d = 4;
         System.out.println(c);
         System.out.println(d);
+        System.out.println(e);
     }
 }
