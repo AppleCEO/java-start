@@ -2,16 +2,10 @@ package variable;
 
 public class Var2 {
     public static void main(String[] args) {
-        int a = 100;
-        double b = 10.5;
-        boolean c = true;
-        char d = 'A';
-        String e = "Hello Java";
+        byte b = 127; // -128 ~ 127
+        short s = 32767; // -32,768 ~ 32,767
+        int i = 2147483647; // -2,147,483,648 ~ 2,147,483,647 (약 20억)
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
+        long l = 9223372036854775807L;
     }
 }
