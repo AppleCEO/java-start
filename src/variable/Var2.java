@@ -2,10 +2,14 @@ package variable;
 
 public class Var2 {
     public static void main(String[] args) {
-        byte b = 127; // -128 ~ 127
-        short s = 32767; // -32,768 ~ 32,767
-        int i = 2147483647; // -2,147,483,648 ~ 2,147,483,647 (약 20억)
+        int a = 4, b = 3;
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
 
-        long l = 9223372036854775807L;
+        int c = 10, d = 20;
+        int sum = c + d;
+        System.out.println(sum);
+        
     }
 }
