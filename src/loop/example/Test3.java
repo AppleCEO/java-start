@@ -1,6 +1,6 @@
 package loop.example;
 
-public class Ttest3 {
+public class Test3 {
     public static void main(String[] args) {
         int num = 1;
         int max = 100;
